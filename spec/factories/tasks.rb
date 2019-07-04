@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :task do
-    title { "MyString" }
-    text { "MyString" }
+    title { "title" }
+    text { "text" }
   end
 end
