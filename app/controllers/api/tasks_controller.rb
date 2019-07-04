@@ -1,6 +1,6 @@
 class Api::TasksController < ApplicationController
   def index
-    tasks = Task.order(created_at: :desc)
+    tasks = Task.all
     render json: { status: 'SUCCESS', message: 'loaded tasks', data: tasks }
   end
 
