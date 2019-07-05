@@ -45,6 +45,11 @@ sudo ln -s /tmp/mysql.sock /var/lib/mysql/mysql.sock
 bundle exec rails db:create
 ```
 
+## mysql server set up
+```
+mysql.server start
+```
+
 ## rails server set up
 ```
 bundle exec rails server -p 8890
